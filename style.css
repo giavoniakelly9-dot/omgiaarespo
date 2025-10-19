@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom right, #FFC0CB, #4169E1, #8B0000, #000000);
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header h1 {
+    margin: 20px 0;
+    font-size: 3em;
+}
+
+.buttons {
+    margin: 20px 0;
+}
+
+.button {
+    display: inline-block;
+    padding: 15px 30px;
+    margin: 10px;
+    border-radius: 15px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: transform 0.2s;
+}
+
+.button:hover {
+    transform: scale(1.1);
+}
+
+.roblox {
+    background-color: #FF1493; /* pastel pink */
+}
+
+.instagram {
+    background-color: #4169E1; /* royal blue */
+}
+
+.search {
+    margin: 30px 0;
+}
+
+#searchBox {
+    padding: 10px;
+    width: 60%;
+    border-radius: 10px;
+    border: none;
+    font-size: 1em;
+}
+
+.search button {
+    padding: 10px 20px;
+    margin-left: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #8B0000; /* dark red */
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.notes {
+    margin: 40px 0;
+}
+
+#notes {
+    width: 70%;
+    height: 150px;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    font-size: 1em;
+}
+
+.notes button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: #000000; /* black */
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
