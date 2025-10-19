@@ -114,6 +114,47 @@
   </script>
 </body>
 </html>
-Trigger rebuild
+<section class="quiz">
+  <h2>Mini Quiz</h2>
+  <p>What color is the sky?</p>
+  <button onclick="checkAnswer('Blue')">Blue</button>
+  <button onclick="checkAnswer('Red')">Red</button>
+  <p id="quizResult"></p>
+</section>
+
+<script>
+function checkAnswer(answer) {
+  if(answer === 'Blue') {
+    document.getElementById('quizResult').innerText = 'Correct! 🎉';
+  } else {
+    document.getElementById('quizResult').innerText = 'Try again!';
+  }
+}
+</script>
+<section class="color-changer">
+  <h2>Change Background Color</h2>
+  <button onclick="document.body.style.background='pink'">Pink</button>
+  <button onclick="document.body.style.background='royalblue'">Royal Blue</button>
+  <button onclick="document.body.style.background='darkred'">Dark Red</button>
+  <button onclick="document.body.style.background='black'">Black</button>
+</section>
+<section class="calculator">
+  <h2>Calculator</h2>
+  <input type="text" id="calcInput" placeholder="Enter expression, e.g., 2+2">
+  <button onclick="calculate()">Calculate</button>
+  <p id="calcResult"></p>
+</section>
+
+<script>
+function calculate() {
+  let input = document.getElementById('calcInput').value;
+  try {
+    document.getElementById('calcResult').innerText = eval(input);
+  } catch {
+    document.getElementById('calcResult').innerText = 'Invalid expression';
+  }
+}
+</script>
+
 
 
